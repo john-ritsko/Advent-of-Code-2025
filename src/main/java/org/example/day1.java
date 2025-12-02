@@ -38,7 +38,7 @@ public class day1 {
         return count;
     }
 
-    public static int part2(ArrayList<String> input) {
+    public static int part2(ArrayList<String> input) throws RuntimeException {
         int count = 0;
         int oldPos;
 
